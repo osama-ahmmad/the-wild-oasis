@@ -11,6 +11,7 @@ const StyledApp = styled.div`
 `;
 
 const Container = styled.div`
+  width: 100%;
   max-width: 120rem;
   margin: 0 auto;
   display: flex;
@@ -21,7 +22,9 @@ const Container = styled.div`
 const Main = styled.main`
   background-color: var(--color-grey-50);
   padding: 4rem 4.8rem 6.4rem;
-  overflow: scroll;
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 `;
 
 function AppLayout() {
