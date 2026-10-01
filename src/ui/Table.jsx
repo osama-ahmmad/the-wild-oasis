@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import { createContext, useContext } from "react";
 import styled from "styled-components";
 

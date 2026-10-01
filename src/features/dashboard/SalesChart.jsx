@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import styled from "styled-components";
 import DashboardBox from "./DashboardBox";
 import Heading from "../../ui/Heading";

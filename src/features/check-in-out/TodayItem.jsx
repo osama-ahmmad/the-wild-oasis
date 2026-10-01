@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import styled from "styled-components";
 import Tag from "../../ui/Tag";
 import { Flag } from "../../ui/Flag";
